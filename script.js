@@ -2,7 +2,7 @@ document.getElementById("loginform").addEventListener("submit", function (e) {
     e.preventDefault();
     const username = document.getElementById("username").value;
     const password = document.getElementById("password").value;
-    const errormessage = document.getElementById("error-mensage");
+    const errormessage = document.getElementById("error-message");
 
 //Simula credenciais validas (Não usar assim em produção)
 const validUsername = "admin";
